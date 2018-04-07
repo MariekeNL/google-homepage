@@ -1,17 +1,67 @@
 body {
-	width: 800px
-	height: 600px;
+	font-family: arial;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-bar {
+  float: right;
+  text-align: center;
+  font-size: 14px;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar a {
+  display: block;
+  padding: 10px 15px 0 15px;
+}
+
+
+.google-apps {
+	width: auto;
+	height: auto;
+	max-width: 20px;
+	max-height: 20px;
+}
+
+#sign-in {
+	color: white;
+	background-color: #4486F6;
+	padding: 7px;
+	margin: 7px 15px;
+	border-radius: 2px;
+	font-weight: bold;
+}
+
+#sign-in a {
+	color: white;
 }
 
 .logo {
 	width: 272px;
 	height: 92px;
 	margin: 200px auto;
+  clear: right;
 }
 
-.searchbar {
+.search-bar {
 	width: 500px;
 	height: 44px;
 	margin: 25px auto;
 	position: relative; left: -114px;
-} 
