@@ -1,4 +1,17 @@
+body {
+	width: 800px
+	height: 600px;
+}
+
 .logo {
-	width: 300px;
+	width: 272px;
+	height: 92px;
 	margin: 200px auto;
 }
+
+.searchbar {
+	width: 500px;
+	height: 44px;
+	margin: 25px auto;
+	position: relative; left: -114px;
+} 
