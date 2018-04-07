@@ -57,7 +57,7 @@ ul {
 	width: 272px;
 	height: 92px;
 	margin: 200px auto;
-  clear: right;
+  	clear: right;
 }
 
 .search-bar {
@@ -65,3 +65,40 @@ ul {
 	height: 44px;
 	margin: 25px auto;
 	position: relative; left: -114px;
+	background-image: url('../files/google-speech.png');
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	background-size: 3%;
+	background-color: transparent;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#footer-menu ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e0e0e0;
+}
+
+#footer-menu li {
+  float: left;
+}
+
+#footer-menu a {
+  padding: 10px;
+  display: block;
+  text-align: center;
+  color: #545454;
+}
+
+li#rightside {
+  float: right;
+}
