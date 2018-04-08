@@ -3,6 +3,8 @@
 
 <head>
 <link href="./styles/styles.css" type="text/css" rel="stylesheet">
+<link href="./files/google-icon.png" rel="icon">
+<title>Google</title>
 </head>
 
 <body>
@@ -20,9 +22,14 @@
 
   <div>
 	<form>
-	<input class="search-bar" type="text" name="Search" action="http://www.lmgtfy.com">
+	<input class="search-bar" type="text" name="Search" action="#">
 </form>
 	  </div>
+  <div class="buttons">
+   <form action="#">
+     <input class="search" type="submit" value="Google Search">
+     <input class="lucky" type="submit" value="I'm feeling lucky">
+  </div>
 	</div>
 
 <div class="footer">
@@ -31,10 +38,12 @@
 		<li><a href="https://www.google.nl/intl/en_en/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
 		<li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
 		<li><a href="https://www.google.nl/intl/en_en/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
-		<li id="rightside"><a href="https://policies.google.com/privacy?hl=en&gl=en">Privacy</a></li>
-		<li id="rightside"><a href="https://policies.google.com/terms?hl=en&gl=en">Terms</a></li>
-		<li id="rightside"><a href="https://www.google.nl/preferences?hl=en">Settings</a></li>
+    <ul id="rightside">
+		<li><a href="https://policies.google.com/privacy?hl=en&gl=en">Privacy</a></li>
+		<li><a href="https://policies.google.com/terms?hl=en&gl=en">Terms</a></li>
+		<li><a id="settings" href="https://www.google.nl/preferences?hl=en">Settings</a></li>
 	</ul>
+    </ul>
   </div>
 </div>
 
